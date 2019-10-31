@@ -1,0 +1,12 @@
+Sorting
+	It was assumed that for another sipp code starting with a char apart from M E C would be collected into one larger group "other".
+	
+	It was assumed that for the set duplications removal the order of elements did not matter. 
+	
+	It was also assumed that I should keep the list a set for the beginning of the program but could change to a list for processing after the program started.
+	
+Display
+	It was assumed that ordering of groupings did not matter for the cipp codes once they where in the right groups. 
+	
+Fuel Policy 
+	Spec for assessment says that the car can be supplied empty or full and can be returned empty or full. Only full option is available, for supplied, in the base application given. It was assumed that the first field was for supplied and the second for return in CarResult class FuelPolicy enum. I've updated th enum to allow for empty supplied.
